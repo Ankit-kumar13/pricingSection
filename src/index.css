@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Noto Sans';
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  .heading {
+    padding-top: 64px;
+  }
+  
+  .purchase-plan {
+    color: #4338CA;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .payment-need {
+    font-size: 48px;
+    font-weight: 4000;
+  }
+  
+  
+  .price-features-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+  }
+  
+  .price-wrapper {
+    padding: 32px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .price-wrapper span {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .popularity {
+    background-color: #F0FDF4;
+    text-align: center;
+    border: 1px solid #BBF7D0;
+    border-radius: 5px;
+    color: #15803D;
+    padding: 4px 10px;
+  }
+  
+  .total-amount {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+  }
+  
+  .price-unit {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  
+  .price-description {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 32px 0;
+  }
+  
+  .purchase-cta {
+    background-color: #4338CA;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features-wrapper {
+    padding: 40px 32px 40px 0;
+  }
+  
+  .features-wrapper h3{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .features span {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px 16px;
+  }
+  
+  .features span svg{
+   padding-right: 4px;
+  }
+  
+  @media only screen and (max-width: 768px){
+    .App {
+      padding: 0 16px;
+    }
+    .price-features-wrapper {
+      flex-direction: column;
+    }
+  
+    .features-wrapper h3{
+      text-align: left;
+    }
+  
+    .features span {
+      padding: 10px 0;
+    }
+  }
